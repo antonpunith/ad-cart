@@ -1,0 +1,72 @@
+{
+  "organizations": [
+    {
+      "name": "default",
+      "pricingRules": null
+    },
+    {
+      "name": "Unilever",
+      "pricingRules": {
+        "classic": {
+          "minBuy": 3,
+          "productsOnOffer": 1,
+          "specialPrice": 0
+        }
+      }
+    },
+    {
+      "name": "Apple",
+      "pricingRules": {
+        "standout": {
+          "minBuy": 0,
+          "specialPrice": 299.99
+        }
+      }
+    },
+    {
+      "name": "Nike",
+      "pricingRules": {
+        "premium": {
+          "minBuy": 4,
+          "productsOnOffer": 4,
+          "specialPrice": 379.99
+        }
+      }
+    },
+    {
+      "name": "Ford",
+      "pricingRules": {
+        "classic": {
+          "minBuy": 5,
+          "productsOnOffer": 1,
+          "specialPrice": 0
+        },
+        "standout": {
+          "minBuy": 0,
+          "specialPrice": 309.99
+        },
+        "premium": {
+          "minBuy": 3,
+          "specialPrice": 389.99
+        }
+      }
+    }
+  ],
+  "ads": [
+    {
+      "id": "classic",
+      "name": "Classic Ad",
+      "price": "269.99"
+    },
+    {
+      "id": "standout",
+      "name": "Standout Ad",
+      "price": "322.99"
+    },
+    {
+      "id": "premium",
+      "name": "Premium Ad",
+      "price": "394.99"
+    }
+  ]
+}
