@@ -149,7 +149,7 @@ class App extends Component {
     const {ads, orgList, cart, showDropDown} = this.state;
     return (
       <div>
-        <Header title="Job ads">
+        <Header title="Ads Cart">
           <SelectOrganization
             showDropDown={showDropDown}
             orgList={orgList}
